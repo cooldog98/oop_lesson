@@ -2,7 +2,6 @@
 # For each class,
 # What are: 1) the data 2) the methods (functions)
 class AccountDB:
-    #test
     def __init__(self):
         self.account_database = []
 
@@ -24,6 +23,14 @@ class AccountDB:
             if account.account_number == account_num:
                 return account
         return None
+
+    def remove(self, account_num):
+        search = self.__search_private(account_num)
+        if search != -1:
+            print("Deleting account:", self.account_database[search])
+            del self.account_database[search]
+        else:
+            print(account_num, 'invalid account number; nothing to be deleted.')
 
     def __str__(self):
         s = ''
