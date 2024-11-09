@@ -71,6 +71,7 @@ print()
 # Let's write a function to filter out only items that meet the condition
 def filter(condition, dict_list):
     pass
+
     _list = []
     for item in dict_list:
         if condition(item):
@@ -79,6 +80,7 @@ def filter(condition, dict_list):
 # Let's write a function to do aggregation given an aggregation function and an aggregation key
 def aggregate(aggregation_key, aggregation_function, dict_list):
     pass
+
     _list = []
     for i in dict_list:
         if aggregation_function(i):
