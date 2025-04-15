@@ -1,0 +1,1 @@
+All def make me confused because in file don’t have the example of shell mode to make me understand more. Addition, def are not sort ( def of 1, 2, 3, 4 … ). Addition, it has many ways that can been, and in Khao Yai have 2 values so it make me confuse and use a huge of time in this problem.
